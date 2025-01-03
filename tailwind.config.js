@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 / @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src//*.{html,js}"],
@@ -11,6 +12,13 @@ module.exports = {
         '2xl' : '1280px',
       }
     },
+=======
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+>>>>>>> 8ea49c1 (struktur)
   },
   plugins: [],
 }
